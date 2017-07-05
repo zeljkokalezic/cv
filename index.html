@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Job application & CV">
+    <meta name="author" content="Zeljko Kalezic">
+    <title>CV</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="Content/stylish-portfolio.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Navigation</a>
+            </li>
+            <li>
+                <a href="#cv" onclick=$("#menu-close").click();>CV</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- CV -->
+    <section id="cv" class="portfolio">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+            <div class="col-lg-8 col-lg-offset-3 text-center">
+                <div class="col-md-3 col-sm-6">
+                    <img style="border-radius: 50%; width: 200px; height: 200px;" alt="Zeljko Kalezic" src="content/img/zeljkokalezic.jpg" class="profile-image">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <h4>
+                            <strong>About Me</strong>
+                        </h4>
+                        <hr class="small">
+                        <p>Father, husband, full stack engineer. Hooked to programming since 10 PRINT "DUCK" 20 GOTO 10 RUN. Currently developing cloud software. Sci-fi fan. Game developer in free time.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h4>
+                        <strong>Željko Kalezić</strong>
+                    </h4>
+                    <hr class="small">
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-map-marker fa-fw"></i> Cara Dušana 6/26, Niš, Serbia</li>
+                        <li><i class="fa fa-phone fa-fw"></i> +381 60 4 233 303</li>
+                        <li>
+                            <i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:zeljkokalezic@gmail.com">zeljkokalezic@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.linkedin.com/in/zeljkokalezic/"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/zeljkokalezic"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/zeljkokalezic"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="heading">Work Experience</h2>
+                <hr class="small">
+                <div class="content text-center">
+					<div class="item">
+                        <h3 class="title">Software Engineer - <span class="place"><a href="http://fra.me/">Frame</a></span> <span class="year">(2015 – 2017)</span></h3>                        
+                    </div><!--//item-->    
+					<div class="item">
+                        <h3 class="title">Web programming Lecturer - <span class="place"><a href="http://www.ni-cat.org/index.php/sr/projekti/it-klaster-akademija-2017">NiCat Cluster</a></span> <span class="year">(2017)</span></h3>                        
+                    </div><!--//item--> 
+                    <div class="item">
+                        <h3 class="title">Full Stack Engineer &amp; Team Leader - <span class="place"><a href="http://smartnet.rs/">SmartNet</a></span> <span class="year">(2011 – 2015)</span></h3>                        
+                    </div><!--//item-->                   
+                    <div class="item">
+                        <h3 class="title">Internship - <span class="place"><a href="http://www.accordia-group.com/">Accordia Group LLC</a></span> <span class="year">(2010 – 2011)</span></h3>                    
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="title">Secretary - <span class="place"><a href="http://ieee.elfak.ni.ac.rs/">IEEESTEC – International Students Projects Conference</a></span> <span class="year">(2012 – 2015)</span></h3>                        
+                    </div><!--//item-->
+                </div>
+            </div>
+			
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="heading">Projects</h2>
+                <hr class="small">
+                <div class="content text-center">
+					<div class="item">
+                        <h3 class="title"><a href="http://fra.me/">Frame (cPanel)</a></h3>
+                        <p class="summary">Single pane of glass interface for management of Frame system. (Technologies: Ruby on Rails, jQuery, Delayed Job, Devise, Sneakers, RabbitMQ, PostgresSQL)</p>                        
+                    </div><!--//item-->
+					<div class="item">
+                        <h3 class="title"><a href="http://fra.me/">Frame (Terminal)</a></h3>
+                        <p class="summary">Component responsible for rendering remote session in a browser. (Technologies: JavaScript, jsFace, promises, npm modules)</p>                        
+                    </div><!--//item-->
+					<div class="item">
+                        <h3 class="title"><a href="http://b2b.roaming.rs/">NAVB2B</a></h3>
+                        <p class="summary">B2B portal. (Technologies: Bootstrap, .NET MVC, Microsoft Dynamics NAV, Hangfyre)</p>                        
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="title"><a href="http://workango.smartnet.rs/">Workango</a></h3>
+                        <p class="summary">Workango is a job portal. (Technologies: Bootstrap, .NET MVC, SQL Server)</p>                        
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="title"><a href="http://appia.real-ware.com/">Appia</a></h3>
+                        <p class="summary">Appia is a cloud desktop services portal.  (Technologies: C#, Windows Services, Hyper-V, Active Directory)</p>
+                    </div><!--//item-->     
+                    <div class="item">
+                        <h3 class="title"><a href="javascript:void(0)">TotalWorkflow</a></h3>
+                        <p class="summary">Solution for distributed workflow execution engine with client-server architecture. (Technologies: DevExpress, C#, Windows Services, Web API)</p>
+                    </div><!--//item-->     
+                    <div class="item">
+                        <h3 class="title"><a href="https://www.facebook.com/bodiel.the.game/app_993165737367293">Bodiel Quiz</a></h3>
+                        <p class="summary">Facebook quiz. (Technologies: C#, Knockout.js, MVC .NET)</p>
+                    </div><!--//item-->   
+                    <div class="item">
+                        <h3 class="title"><a href="http://www.fundpoint.eu/">FundPoint</a></h3>
+                        <p class="summary">Solution for financial fund data management, data feeds and site building. (Technologies: Orchard CMS, Windows Services, Knockout.js, Bootstrap, C#, WCF)</p>
+                    </div><!--//item-->       
+                    <div class="item">
+                        <h3 class="title"><a href="http://www.avatwist.com/index.html">Avatwist</a></h3>
+                        <p class="summary">Online privacy solution. (Technologies: OpenVPN, C#, MVC .NET, Active Directory, Hmail, Roundcube)</p>
+                    </div><!--//item--> 
+                    <div class="item">
+                        <h3 class="title"><a href="javascript:void(0)">TotalCommerce</a></h3>
+                        <p class="summary">E-Commerce System. (Technologies: MVC .NET, DevExpress, ASP .NET, Ajax)</p>
+                    </div><!--//item--> 
+                    <div class="item">
+                        <h3 class="title"><a href="javascript:void(0)">TotalCMS</a></h3>
+                        <p class="summary">CMS System. (Technologies: MVC .NET, DevExpress, ASP .NET)</p>
+                    </div><!--//item--> 
+                    <div class="item">
+                        <h3 class="title"><a href="http://www.bessemertrust.com/">Bessamer Trust</a></h3>
+                        <p class="summary">Trust fund management system. (Technologies: WCF, C#, ASP .NET, Oracle DB)</p>
+                    </div><!--//item--> 
+                    <div class="item">
+                        <h3 class="title"><a href="http://www.adenin.com/">Adenin Technologies Intranet</a></h3>
+                        <p class="summary">Intranet solution. (Technologies: C#, Orchard CMS, Orchard Gallery)</p>
+                    </div><!--//item--> 
+                    <div class="item">
+                        <h3 class="title"><a href="http://www.mmsd.com/">MMSD Reporting tool</a></h3>
+                        <p class="summary">Reporting tool for displaying unified data feed. (Technologies: XML, SQL Server, .C#, ASP. NET)</p>
+                    </div><!--//item--> 
+                    <div class="item">
+                        <h3 class="title"><a href="http://www.adtaffy.com/demo/mapping/index.html">AdTaffy</a></h3>
+                        <p class="summary">GeoMarketing solution. (Technologies: HTML5, REST services, Ajax, MVC .NET)</p>
+                    </div><!--//item--> 
+                    <div class="item">
+                        <h3 class="title"><a href="http://www.memberplanet.com/">MemberPlanet</a></h3>
+                        <p class="summary">Social network for fraternities. (Technologies: ASP .NET)</p>
+                    </div><!--//item--> 
+                    <div class="item">
+                        <h3 class="title"><a href="javascript:void(0)">PM Tool</a></h3>
+                        <p class="summary">Project Managemet Tool with Jira Export. (Technologies: C#, ASP. NET, Jira web services) </p>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="title"><a href="javascript:void(0)">Game Development</a></h3>
+                        <p class="summary">StarLoot (clicker)
+                        <br>NineF*uck (logic game)
+                        <br>Basketball (ball game for Android)
+                        <br>Meteorits (space shooter)
+                        <br>(Technologies: C#, Unity, Web API)</p>
+                    </div><!--//item--> 
+                    <div class="item">
+                        <h3 class="title"><a href="javascript:void(0)">Miscellaneous</a></h3>
+                        <p class="summary"> Connecting to bluetooth thermometer from Android
+                            <br> Windows services for monitoring industrial processes in Philip Moriss Factory in Nis
+                        </p>
+                    </div><!--//item--> 
+                    <div class="item">
+                        <h3 class="title"><a href="#">Faculty projects</a></h3>
+                        <p class="summary"><a href="https://www.youtube.com/watch?v=PVuU5BTJhU8">Fuzzy Rover</a> - <a href="http://www.blic.rs/Kultura/Vesti/217290/Vazno-arheolosko-otkrice-na-Medijani-u-Nisu">Later used for Mediana resarch with upgraded chasis</a>
+                            <br> E-Analize website for collecting medical analysis data (PHP, Smarty Templates)
+                            <br> Smart card terminal for exam registration on Faculty of Electronic Engineering (.NET)
+                            <br> Kinect project for augmented reality (.NET, WPF)
+                            <br> Mini OpenGL engine (C++, OpenGL)
+                            <br> Perfect Tic-Tac-Toe (C++)
+                        </p>
+                    </div><!--//item-->                                
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-md-6 col-sm-6">
+                    <h2 class="heading">Education</h2>
+                    <hr class="small">
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title"><i class="fa fa-graduation-cap"></i> MSc Information Technology</h3>
+                            <h4 class="university">Faculty of Electronic Engineering in Nis <span class="year">(2005-2015)</span></h4>
+                        </div><!--//item-->
+                    </div><!--//content-->
+                    <h2 class="heading">Awards</h2>
+                    <hr class="small">
+                    <div class="content">
+                            <h4 class="title"><i class="fa fa-trophy"></i> PECD Scholarship (2011)</h4>
+                            <h4 class="title"><i class="fa fa-trophy"></i> 2nd place - Best Paper on IEEESTEC conference (2010) (for Fuzzy Rover)</h4>
+                    </div><!--//content-->
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <h2 class="heading">Publications</h2>
+                    <hr class="small">
+                    <div class="content">
+                        <ul class="list-unstyled text-left">
+                            <li><i class="fa fa-book"></i> <i>Terminal za prijavu ispita na Elektronskom fakultetu pametnim karticama</i> <br> IEEESTEC Student project conference (2nd 2009; Niš ISBN 978-86-6125-001-9)</li>
+                            <li><i class="fa fa-book"></i> <i>Fuzzy Rover - Vehicle Speed Controll With Wireless Fuzzy Controller</i> <br> IEEESTEC Student project conference (3rd 2010; Niš ISBN 978-86-6125-021-7)</li>
+                            <li><i class="fa fa-book"></i> <i>Computing Per Pixel Filters on Graphic Processing Units Using OpenCL</i> <br> IEEESTEC Student project conference (4th 2011; Niš ISBN: 978-86-6125-052-1)</li>
+                            <li><i class="fa fa-book"></i> <i>Algoritmi traženja na primeru igre X-O</i> <br> IEEESTEC Student project conference (5th 2012; Niš ISBN: 978-86-6125-073-6)</li>
+                            <li><i class="fa fa-book"></i> <i>Aplikacija „IEEESTEC kviz“</i> <br> IEEESTEC Student project conference (6th 2013; Niš ISBN: 978-86-6125-097-2)</li>                            
+                        </ul><!--//item-->
+                    </div><!--//content-->
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">                    
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Željko Kalezić 2017</p>
+                    <p class="text-muted">Design inspiration by <a href="http://startbootstrap.com/template-overviews/stylish-portfolio/">Stylish Portfolio</a> & <a href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/">Developer</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script>
+        // Closes the sidebar menu
+        $("#menu-close").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+
+        // Scrolls to the selected menu item on the page
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
